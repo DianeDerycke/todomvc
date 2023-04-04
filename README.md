@@ -4,16 +4,19 @@ This is a simple Todo List app built with React. It allows users to add, edit, a
 # Getting Started
 To run the app locally, follow these steps:
 
-Clone the repository to your local machine.
-Install dependencies by running 
-npm install
- in the project directory.
-Start the app by running 
-npm start
-.
-Open http://localhost:3000 to view it in the browser.
-Usage
-To add a new task, type the task into the input field and press enter or click the "Add" button. To edit a task, click on the task text and make your changes. To delete a task, click the "X" button next to the task. To mark a task as completed or active, click the checkbox next to the task. To filter tasks by category, click the corresponding button at the bottom of the app. To clear completed tasks, click the "Clear completed" button.
+- Clone the repository to your local machine.
+- Install dependencies by running 
+- `npm install` in the project directory.
+- Start the app by running `npm start`.
+- Open `http://localhost:3000` to view it in the browser.
+
+# Usage
+- To **add** a new task, type the task into the input field and press enter or click the "Add" button.
+- To **edit** a task, click on the task text and make your changes. 
+- To **delete** a task, click the "X" button next to the task. 
+- To **mark** a task as completed or active, click the checkbox next to the task. 
+- To **filter** tasks by category, click the corresponding button at the bottom of the app. 
+- To **clear** completed tasks, click the "Clear completed" button.
 
 # Technologies Used
 React
