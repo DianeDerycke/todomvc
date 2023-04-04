@@ -4,7 +4,7 @@ This is a simple Todo List app built with React. It allows users to add, edit, a
 # Getting Started
 To run the app locally, follow these steps:
 
-- Clone the repository to your local machine: `git clone https://github.com/your-username/todo-list-app.git`
+- Clone the repository to your local machine: `git clone https://github.com/DianeDerycke/todomvc.git`
 - Navigate to tje project directory: `cd todomvc`
 - Install dependencies by running `npm install` in the project directory.
 - Start the app by running `npm start`.
@@ -19,17 +19,9 @@ To run the app locally, follow these steps:
 - To **clear** completed tasks, click the "Clear completed" button.
 
 # Technologies Used
-React
-TypeScript
-Contributing
-Contributions are welcome! To contribute, follow these steps:
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Make your changes and commit them with descriptive commit messages.
-- Push your changes to your fork.
-- Submit a pull request.
-
+- React
+- TypeScript
+- CSS
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
