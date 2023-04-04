@@ -1,0 +1,152 @@
+.todo-list__wrapper {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 550px;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+.todo-list__wrapper header {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	padding: 16px;
+	border-bottom: 1px solid #ededed;
+}
+
+.todo-list__wrapper__form {
+	width: 100%;
+	min-width: 40px;
+	text-align: left;
+}
+
+.arrow {
+	background-color: white;
+	box-sizing: border-box;
+	height: 20px;
+	width: 20px;
+	margin-bottom: 8px;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 0px 1px 1px 0px;
+	transform: rotate(45deg);
+	transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+	cursor: pointer;
+	border-bottom-width: 4px;
+	border-right-width: 4px;
+}
+
+.todo-list__input {
+	padding: 0;
+	width: 100%;
+	font-size: 24px;
+	font-family: inherit;
+	-webkit-font-smoothing: antialiased;
+	border: none;
+	outline: none;
+	font-weight: 140;
+	color: #4d4d4d;
+}
+
+.todo-list__input::placeholder {
+	font-weight: 100;
+	font-style: italic;
+	opacity: 0.4;
+}
+
+.todo-list__footer {
+	height: 42px;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 16px;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 300;
+	color: grey;
+	font-family: inherit;
+}
+
+.todo-list__footer__btn-group {
+	display: flex;
+	gap: 8px;
+}
+
+.todo-list__footer__btn-group button {
+	font-family: inherit;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	background: none;
+	min-width: 40px;
+	padding: 6px;
+	color: inherit;
+}
+
+.todo-list__footer__btn-group button:hover {
+	border: 1px solid #cc9a9a;
+	cursor: pointer;
+}
+
+.todo-list__footer__btn__completed {
+	border: 1px solid transparent;
+	border-radius: 3px;
+	background: none;
+	min-width: 40px;
+	padding: 6px;
+	color: inherit;
+}
+
+.todo-list__footer__btn__completed:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.--active {
+	border: 1px solid #cc9a9a !important;
+}
+
+input[type="checkbox"] {
+	/* Add if not using autoprefixer */
+	-webkit-appearance: none;
+	appearance: none;
+	/* For iOS < 15 to remove gradient background */
+	background-color: #fff;
+	/* Not removed via appearance */
+	margin: 0;
+}
+
+input[type="checkbox"] {
+	appearance: none;
+	margin: 0;
+	font: inherit;
+	color: #ededed;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ededed;
+	border-radius: 50%;
+	transform: translateY(-0.075em);
+	display: grid;
+	place-content: center;
+}
+
+input[type="checkbox"]::before {
+	content: "";
+	width: 0.65em;
+	height: 0.65em;
+	transform: scale(0);
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1em 1em #66ac69;
+	background-color: CanvasText;
+
+	transform-origin: bottom left;
+	clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+	transform: scale(1);
+}
