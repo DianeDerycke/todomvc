@@ -23,5 +23,5 @@ To run the app locally, follow these steps:
 - TypeScript
 - CSS
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
