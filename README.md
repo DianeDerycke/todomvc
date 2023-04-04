@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Todo List App
+This is a simple Todo List app built with React. It allows users to add, edit, and delete tasks, as well as mark them as completed or active. Users can also filter tasks by category (all, active, or completed) and clear completed tasks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started
+To run the app locally, follow these steps:
 
-## Available Scripts
+Clone the repository to your local machine.
+Install dependencies by running 
+npm install
+ in the project directory.
+Start the app by running 
+npm start
+.
+Open http://localhost:3000 to view it in the browser.
+Usage
+To add a new task, type the task into the input field and press enter or click the "Add" button. To edit a task, click on the task text and make your changes. To delete a task, click the "X" button next to the task. To mark a task as completed or active, click the checkbox next to the task. To filter tasks by category, click the corresponding button at the bottom of the app. To clear completed tasks, click the "Clear completed" button.
 
-In the project directory, you can run:
+# Technologies Used
+React
+TypeScript
+Contributing
+Contributions are welcome! To contribute, follow these steps:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them with descriptive commit messages.
+- Push your changes to your fork.
+- Submit a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
